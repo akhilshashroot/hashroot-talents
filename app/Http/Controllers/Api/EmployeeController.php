@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\StakefieldUser;
 use Illuminate\Support\Facades\Log;
 use App\Models\EnquiryData;
-
+use Illuminate\Support\Facades\Mail;
 class EmployeeController extends Controller
 {
     /**
@@ -93,10 +93,11 @@ class EmployeeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function MailTest()
     {
-        $employee = StakefieldUser::where('id',$id)->first();
-        return response()->json($employee, 200);
+        Mail::send('welcome', [], function($message) {
+            $message->to('akhil.s@hashroot.com')->subject('Testing mails'); 
+        });
     }
 
     /**

@@ -79,7 +79,7 @@ class EnquiryController extends Controller
                             'Cache-Control: no-cache',
                           ];
        
-            $url          = 'http://talents.hashroot.org/api/enquiry-add';
+            $url          = 'https://talents.stakefield.com/api/enquiry-add';
       
      
             $ch         = curl_init();

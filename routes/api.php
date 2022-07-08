@@ -21,3 +21,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('employee-add', [App\Http\Controllers\Api\EmployeeController::class, 'store'])->name('store');
 Route::post('enquiry-add', [App\Http\Controllers\Api\EmployeeController::class, 'enquiryAdd'])->name('enquiryAdd');
 Route::post('employee-delete', [App\Http\Controllers\Api\EmployeeController::class, 'employeeDelete'])->name('employeeDelete');
+Route::post('mail-test', [App\Http\Controllers\Api\EmployeeController::class, 'MailTest'])->name('employeeDelete');
