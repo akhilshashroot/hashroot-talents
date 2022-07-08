@@ -1,0 +1,80 @@
+.parallax:before {
+    background: none;
+}
+
+
+
+@media only screen and (min-width: 991px) {
+    .main-header.header-white.transparent .navbar .navbar-nav>li>a {
+        color: #000;
+    }
+
+    .alin-fix {
+        margin-left: 34px;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width:772px) {
+    .slider-main-title < .tp-mask-wrap {
+        top: 10px !important
+    }
+}
+
+.main-title2 {
+    letter-spacing: -2px;
+    font-weight: 500;
+    font-size: 68px;
+    white-space: normal;
+}
+
+/* .main-title2 {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 96px;
+    white-space: normal;
+} */
+
+
+@media screen and (min-width:767px) {
+
+    .main-title1 {
+        letter-spacing: 4px;
+        font-weight: 600;
+        font-size: 26px;
+        white-space: normal;
+    }
+
+    .correct-alignamnt {
+        padding-bottom: 4%;
+        /* padding-right: 353px;
+        margin-top: -45px; */
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-title2 {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 47px;
+        white-space: normal;
+    }
+
+}
+
+.banner-color {
+    color: #55565b;
+}
+
+.button-touch {
+    background: #55565b;
+    border-color: #55565b;
+    color: #fff;
+}
+
+.button-touch:hover {
+    background: #000000;
+    border-color: #000000;
+    color: #fff;
+}

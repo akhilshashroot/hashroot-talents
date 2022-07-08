@@ -1,0 +1,33 @@
+.show_more {
+    height: 10.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cardicon>img {
+    width: 30%
+}
+
+.equalcol {
+    height: 95%
+}
+.col-wrap{
+    height: 95%;
+}
+.col-wrap > .ico-box{
+    height: 95%;
+}
+
+.mobile_margin {
+    margin-top: 0;
+}
+/* 
+    .team-box>.img-block>img {
+        width: 50% !important;
+    } */
+
+@media(max-width:772px) {
+    .mobile_margin {
+        margin-top: 6rem;
+    }
+}
